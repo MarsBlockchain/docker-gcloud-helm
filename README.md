@@ -1,9 +1,9 @@
-# Docker alpine with curl git jq wget
+# Docker google cloud sdk with build-essential
 
-Like it says, it's a docker image built on alpine with curl, git, jq, wget installed. Size 11 MB.
+It's a docker image built on google cloud sdk with build-essential installed.
 
-Available from docker hub as [marsblockchain/curl-git-jq-wget](https://hub.docker.com/r/marsblockchain/curl-git-jq-wget/)
+Available from docker hub as [marsblockchain/google-cloud-sdk](https://hub.docker.com/r/marsblockchain/google-cloud-sdk/)
 
 ## Usage
 
-    docker run --rm marsblockchain/curl-git-jq-wget sh
+    docker run --rm marsblockchain/google-cloud-sdk sh
